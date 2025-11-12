@@ -1,0 +1,18 @@
+# Paint-by-Numbers Generator - Requirements
+
+# Core framework
+streamlit==1.38.0
+
+# Numerical and image processing
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+Pillow==10.4.0
+
+# Machine learning (for K-Means color quantization)
+scikit-learn==1.5.2
+
+# PDF generation
+reportlab==4.2.2
+
+# Optional backend utilities (sometimes required by OpenCV/Streamlit)
+matplotlib==3.9.2
