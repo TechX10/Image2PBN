@@ -262,7 +262,7 @@ if uploaded:
     col1, col2 = st.columns([1, 1])
     
     with col1:
-        st.header(⚙️ Settings")
+        st.header("⚙️ Settings")
         n_colors = st.slider("Number of Colors", 12, 64, 28, help="More colors = more detail")
         min_area = st.slider("Min Region Size", 150, 800, 350, help="Larger = cleaner outlines")
         merge_sim = st.slider("Merge Similar", 0.10, 0.35, 0.20, 0.05, help="Lower = more distinct colors")
@@ -351,4 +351,5 @@ if uploaded:
 
 # Footer
 st.markdown("---")
+
 st.markdown("*Powered by advanced computer vision & K-Means clustering*")
